@@ -1,6 +1,17 @@
 # Movie Recommender System
-## Description of the project
-A Machine Learning project that takes a movie from the user as input and recommends 5 similar movies for the user to watch. 
+
+## Description 
+A machine learning–powered web application that recommends five similar movies based on user input. Built using the TMDB top 5000 movies dataset from Kaggle, this project applies core NLP techniques like stemming and vectorization, combined with cosine similarity, to find and rank similar titles. The frontend is developed with Streamlit, offering a clean and interactive user experience. 
+
+## Learnings 
+* This project deepened my understanding of text-based similarity techniques using scikit-learn.
+* I learned how to preprocess textual data for recommendation systems, apply stemming for keyword normalization, and use vectorization (CountVectorizer) and cosine similarity to build a lightweight content-based recommender.
+* I also became familiar with deploying quick ML prototypes using Streamlit.
+
+## Challenges
+* Key challenges included handling noisy or missing metadata in the dataset, optimizing similarity computations for faster runtime, and ensuring recommendations remained relevant and diverse.
+* Additionally, integrating a user-friendly UI with a backend ML model required careful structuring of data flow in Streamlit.
+
 ## Database used 
 TMDB top 5000 movies (available on kaggle)
 ## Concepts used 
